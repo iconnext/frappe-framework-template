@@ -1,0 +1,16 @@
+[
+    {
+      "url": "https://github.com/frappe/erpnext",
+      "branch": "version-15"
+    },
+    {
+      "url": "https://github.com/frappe/payments",
+      "branch": "version-15"
+    },
+    {
+      "url": "https://github.com/frappe/hrms",
+      "branch": "version-15"
+    }
+]
+//enerate base64 string from the apps.json file you created above using the command below
+export APPS_JSON_BASE64=$(base64 -w 0 apps.json)
